@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
           ElevatedButton(
             onPressed: () {},
             style: const ButtonStyle(
-              backgroundColor: MaterialStatePropertyAll(Colors.red),
+              backgroundColor: MaterialStatePropertyAll(Colors.yellow),
             ),
             child: const Text("Button 1"),
           ),
