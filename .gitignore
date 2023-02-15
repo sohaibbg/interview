@@ -30,7 +30,8 @@ migrate_working_dir/
 .packages
 .pub-cache/
 .pub/
-/build/
+# /build/
+# build folder not included for cicd
 
 # Symbolication related
 app.*.symbols

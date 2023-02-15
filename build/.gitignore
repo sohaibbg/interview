@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!/web/
+
+# ...even if they are in subdirectories
+!*/
