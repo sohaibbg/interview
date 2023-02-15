@@ -6,12 +6,13 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: ListView(
         children: [
           ElevatedButton(
             onPressed: () {},
             style: const ButtonStyle(
-              backgroundColor: MaterialStatePropertyAll(Colors.pink),
+              backgroundColor: MaterialStatePropertyAll(Colors.red),
             ),
             child: const Text("Button 1"),
           ),
@@ -20,7 +21,7 @@ class HomeScreen extends StatelessWidget {
             style: const ButtonStyle(
               backgroundColor: MaterialStatePropertyAll(Colors.green),
             ),
-            child: const Text("Button 1"),
+            child: const Text("Button 2"),
           ),
         ],
       ),
